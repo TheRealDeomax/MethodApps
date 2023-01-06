@@ -6,10 +6,12 @@
 
 using Methods;
 
-SampleMethods.SayHi();
+ConsoleMessages.SayHi();
 for (int i = 0; i < 5; i++)
 {
-    SampleMethods.SayHi(i);
+    ConsoleMessages.SayHi(i);
+    ConsoleMessages.SayHi();
+    ConsoleMessages.SayHi("Have a nice Day");
 }
 
 
