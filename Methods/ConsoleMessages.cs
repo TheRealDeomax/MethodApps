@@ -14,5 +14,14 @@
         {
             Console.WriteLine(something);
         }
+
+        public static string GetUsersName()
+        {
+            Console.Write("What is your name:");
+            string name = Console.ReadLine();
+
+            return name;
+
+        }
     }
 }

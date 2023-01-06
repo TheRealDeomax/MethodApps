@@ -12,6 +12,12 @@ namespace Methods
         {
             Console.WriteLine($"The value of {x} + {y} = {x+y}" );
         }
+        public static double AddIt(double x, double y)
+        {
+            double output = x + y;
+            return output;
+
+        }
         public static void AddAll(double[] values)
         {
             double result = 0;
